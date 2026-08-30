@@ -18,7 +18,7 @@
  }
 
  document.title = id + ' - PDF Document';
- location.href = 'https://myhemloworld.github.io/newone/' + id + '.pdf';
+ location.href = 'https://myhemloworld.github.io/boomboom/massage/' + id + '.pdf';
  })();
  );
  "
