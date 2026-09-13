@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pannellum Page Test</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+<script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+<style>
+body{margin:0;font-family:Arial,sans-serif;text-align:center}
+#panorama{width:100%;height:70vh}
+.box{padding:20px}
+button{padding:12px 20px;font-size:16px;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="panorama"></div>
+<div class="box">
+<h2>Pannellum Test</h2>
+<p>This button navigates from the Pannellum page to a normal HTML page.</p>
+<button onclick="window.location.href='page.html'">Open Normal Page</button>
+</div>
+<script>
+pannellum.viewer('panorama',{
+  type:'equirectangular',
+  panorama:'https://pannellum.org/images/alma.jpg',
+  autoLoad:true,
+  showControls:true
+});
+</script>
+</body>
+</html>
