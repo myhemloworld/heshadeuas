@@ -1,0 +1,6 @@
+{
+  "type": "equirectangular",
+  "panorama": "https://pannellum.org/images/alma.jpg",
+  "autoLoad": true,
+  "showControls": true
+}
